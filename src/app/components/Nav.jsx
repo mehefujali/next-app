@@ -8,6 +8,7 @@ export default function Nav() {
         <h1 className=" text-2xl font-bold">Mehefuj A.</h1>
         <ul className=" flex gap-6 items-center">
           <Link href='/'><li className=" cursor-pointer select-none ">Home</li></Link>
+          <Link href='/posts'><li className=" cursor-pointer select-none ">Posts</li></Link>
           <Link href="/aboutus">
             {" "}
             <li className=" cursor-pointer select-none ">About us</li>
